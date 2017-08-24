@@ -1,8 +1,8 @@
 ﻿@model Product[]
 
-@*@{ 
+@{ 
     ViewBag.Title = "Product name";
-}*@
+}
 
 <table>
     <thead>
@@ -13,7 +13,7 @@
         {
             <tr>
                 <td>@p.Name</td>
-                <td>@($"{p.Price:C2}"</td>
+                <td>@($"{p.Price:C2}")</td>
             </tr>
 
         }

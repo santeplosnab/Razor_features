@@ -12,6 +12,7 @@ namespace Razor
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                
                 .Build();
 
             host.Run();
